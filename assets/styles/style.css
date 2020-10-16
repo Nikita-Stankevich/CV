@@ -1,0 +1,74 @@
+.container-1 {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 400px;
+    
+}
+.box-1 {
+    width: 30%;
+    height: 100%;
+    
+}
+
+.box-2 {
+    height: 100%;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.flex{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+img{
+    width: 100%; 
+    height: 100%;
+    /*height: 400px*/  
+}
+
+h1 {
+    font-family: serif;
+    color: mediumblue;
+}
+
+.personal-info, .aducation, .experience {
+    padding-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    line-height: 1.5;
+
+}
+
+h2{
+    font-family: serif;
+    color: mediumblue;  
+}
+
+hr{
+    border:none;
+    border-top:1px dotted rgb(179, 179, 179);
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+}
+
+li:before {
+    content: "- "
+}
+
+li{
+    list-style: none;
+    
+}
+
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
+
